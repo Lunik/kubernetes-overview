@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "install": "cp ./config/config.default ./config/config.json",
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lunik/kubernetes-overview.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lunik/kubernetes-overview/issues"
   },
-  "homepage": "https://github.com/Lunik/kubernetes-overview#readme"
+  "homepage": "https://github.com/Lunik/kubernetes-overview#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-kubernetes-client": "^0.2.3"
+  }
 }
