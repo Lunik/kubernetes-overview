@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "node lib/test.js",
     "install": "cp ./config/config.default ./config/config.json",
     "start": "node lib/index.js"
   },
