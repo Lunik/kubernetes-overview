@@ -5,7 +5,7 @@
   "kubernetes": {
     "host": "localhost",
     "port": 8080,
-    "protocole": "https",
+    "protocole": "http",
     "version": "v1",
     "token": ""
   }
