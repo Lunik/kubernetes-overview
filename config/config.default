@@ -3,7 +3,10 @@
     "port": 5000
   },
   "kubernetes": {
-    "apiUrl": "http://localhost:8080",
+    "host": "localhost",
+    "port": 8080,
+    "protocole": "https",
+    "version": "v1",
     "token": ""
   }
 }
