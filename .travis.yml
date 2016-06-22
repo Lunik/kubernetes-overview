@@ -1,0 +1,15 @@
+notifications:
+  email: false
+
+language: node_js
+node_js:
+- '6'
+- '5'
+
+env:
+  - PORT=5000
+
+script:
+  - npm start &
+  - sleep 10
+  - curl http://localhost:$PORT
