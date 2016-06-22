@@ -1,0 +1,9 @@
+{
+  "app": {
+    "port": 5000
+  },
+  "kubernetes": {
+    "apiUrl": "http://localhost:8080",
+    "token": ""
+  }
+}
