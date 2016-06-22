@@ -21,4 +21,5 @@ before_install:
 script:
   - npm start &
   - sleep 10
-  - curl http://localhost:$PORT
+  - curl http://localhost:$PORT -s >/dev/null
+  - curl http://localhost:$PORT/cluster.json
