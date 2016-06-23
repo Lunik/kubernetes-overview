@@ -25,6 +25,7 @@ before_install:
   - ./kubectl config use-context test-doc
   - while [ $(./kubectl get nodes | grep 127.0.0.1 | grep Ready | wc -l) -eq 0 ]; do sleep 1; done
 script:
+  - npm test
   - npm start &
   - sleep 10
   - curl http://localhost:$PORT -s >/dev/null
