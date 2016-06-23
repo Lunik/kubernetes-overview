@@ -31,3 +31,6 @@ script:
   - curl http://localhost:$PORT/cluster.json
   - curl http://localhost:$PORT/jquery.json -s >/dev/null
   - curl http://localhost:$PORT/d3.json -s >/dev/null
+cache:
+  directories:
+  - "$(pwd)/node_modules"
