@@ -1,8 +1,31 @@
 html, body{
   background-color: #111;
+
+  color: #aaa;
+
+  margin: 0;
+  padding: 0;
 }
 
 svg line.link {
     stroke: #999;
     stroke-opacity: .6;
+}
+
+.legende {
+  position: fixed;
+}
+
+.legende > div{
+  display: block;
+
+  margin: 10px;
+}
+
+.legende p{
+  margin: 0;
+}
+
+.legende > div > * {
+  display: inline-block;
 }
