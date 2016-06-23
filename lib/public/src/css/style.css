@@ -1,0 +1,8 @@
+html, body{
+  background-color: #111;
+}
+
+svg line.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
