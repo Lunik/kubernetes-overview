@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node lib/test.js",
-    "install": "cp ./config/config.default ./config/config.json",
+    "install": "sh -c scripts/init.sh && bower install",
     "start": "node lib/index.js"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Lunik/kubernetes-overview#readme",
   "dependencies": {
     "async": "^2.0.0-rc.6",
+    "bower": "^1.7.9",
     "d3": "^3.5.17",
     "express": "^4.14.0",
     "jquery": "^3.0.0",

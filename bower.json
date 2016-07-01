@@ -1,0 +1,21 @@
+{
+  "name": "kubernetes-overview",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "gmartine <guillaume.martinez@cc.in2p3.fr>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Lunik/kubernetes-overview",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "d3": "^4.0.0"
+  }
+}
