@@ -16,6 +16,6 @@
   ],
   "dependencies": {
     "jquery": "^3.0.0",
-    "d3": "^4.0.0"
+    "kubernetes-topology-graph": "^0.0.23"
   }
 }
