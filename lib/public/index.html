@@ -8,8 +8,28 @@
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="/src/bower_components/kubernetes-topology-graph/dist/topology-graph.css" />
 </head>
-<body>
-  <div class="diagram"></div>
+<body ng-app="myapp">
+  <svg class="kube-topology" hidden>
+      <defs>
+        <g class="Node" id="vertex-Node">
+          <circle r="15"></circle>
+          <text y="9">&#xe621;</text>
+        </g>
+        <g class="Pod" id="vertex-Pod">
+          <circle r="15"></circle>
+          <text y="6" x="0.5">&#xf1b3;</text>
+        </g>
+        <g class="Service" id="vertex-Service">
+          <circle r="15"></circle>
+          <text y="10" x="1">&#xe61e;</text>
+        </g>
+        <g class="Namespace" id="vertex-Namespace">
+          <circle r="15"></circle>
+          <text y="9">&#xe624;</text>
+        </g>
+      </defs>
+    </svg>
+    <kubernetes-topology-graph items="items" relations="relations" kinds="kinds"></kubernetes-topology-graph>
   <script src="/src/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/src/bower_components/angular/angular.js"></script>
   <script src="/src/bower_components/d3/d3.js"></script>
