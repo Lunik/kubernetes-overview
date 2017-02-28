@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Lunik/kubernetes-overview#readme",
   "dependencies": {
     "async": "^2.0.0-rc.6",
-    "d3": "^4.4.0",
+    "d3": "^4.7.0",
     "express": "^4.14.0",
     "jquery": "^3.0.0",
     "node-kubernetes-client": "^0.2.3",
